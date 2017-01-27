@@ -18,21 +18,45 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-
+    color: white;
 }
 
 .nav-bar {
     display:inline-block;
-    width: 80%;
-    line-height: 100%;
 }
 
 ul {
-    text-align: right;
+    list-style-type: none;
     margin: 0;
-    line-height: 38px:;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
 }
 
 li {
     display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+.profile {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+p {
+    display: inline-block;
 }
