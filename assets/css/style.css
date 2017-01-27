@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-color: #777777;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 20%;
+    float: left;
+}
+
+.nav-bar {
+    float: right;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid #dddddd;
+}
