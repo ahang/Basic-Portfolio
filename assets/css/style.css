@@ -7,21 +7,30 @@ body {
     background-color: #ffffff;
 }
 
+.logo {
+    width: 20%;
+    padding-left: 10%;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 20%;
     float: left;
 }
 
 .nav-bar {
     float: right;
     width: 80%;
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    display: inline;
 }
 
 hr {
