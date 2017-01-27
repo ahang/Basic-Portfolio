@@ -12,18 +12,25 @@ body {
 .logo {
     display: inline-block;
     background-color: #4aaaa5;
+    width: 20%;
+
 }
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 .nav-bar {
     display:inline-block;
+    width: 80%;
+    line-height: 100%;
 }
 
 ul {
-
+    text-align: right;
+    margin: 0;
+    line-height: 38px:;
 }
 
 li {
