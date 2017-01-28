@@ -69,3 +69,19 @@ li a:hover {
 p {
     display: inline-block;
 }
+
+.about-me {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.social {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
