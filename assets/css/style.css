@@ -67,12 +67,14 @@ li a:hover {
 }
 
 .about-me {
+    max-width: 650px;
     border: 1px solid black;
     background-color: white;
 }
 
 h2 {
     border-bottom: solid #dddddd;
+    color: #4aaaa5;
     text-align: center;
     max-width: 100%;
 }
@@ -87,6 +89,8 @@ p.about-me {
 }
 
 .social {
+    float: right;
+    max-width: 270px;
     border: 1px solid black;
     background-color: white;
 }
@@ -95,4 +99,5 @@ p.about-me {
     text-align: center;
     background-color: black;
     color: white;
+    clear: both;
 }
