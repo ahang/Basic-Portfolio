@@ -24,9 +24,9 @@ h1 {
 }
 
 .nav-bar {
-    display:inline-block;
-    left: 50%;
+    display: inline-block;
     margin-left: 40%;
+    vertical-align: middle;
 }
 
 ul {
@@ -64,28 +64,38 @@ li a:hover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    float: left;
+    margin: 20px 20px 20px 20px;
+
 }
 
 .about-me {
     max-width: 650px;
     border: 1px solid black;
     background-color: white;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2 {
     border-bottom: solid #dddddd;
     color: #4aaaa5;
     text-align: center;
-    max-width: 100%;
+ 
+    margin: 0 auto;
+    width: 80%;
+}
 }
 
 .profile {
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 p.about-me {
-    float: right;
+    float: left;
+
 }
 
 .social {
@@ -100,4 +110,8 @@ p.about-me {
     background-color: black;
     color: white;
     clear: both;
+}
+
+.social img {
+    width: 50px;
 }
