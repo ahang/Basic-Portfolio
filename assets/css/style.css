@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-color: #777777;
     max-width: 960px;
+    background-image: url(../images/bg.png);
 }
 
 .header {
@@ -25,7 +26,7 @@ h1 {
 .nav-bar {
     display:inline-block;
     left: 50%;
-    position: absolute;
+    margin-left: 40%;
 }
 
 ul {
