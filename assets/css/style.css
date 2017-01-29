@@ -3,8 +3,6 @@ body {
     font-color: #777777;
     max-width: 960px;
     background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .header {
@@ -31,7 +29,7 @@ h1 {
     vertical-align: middle;
 }
 
-ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,17 +38,17 @@ ul {
 
 }
 
-li {
+.nav-bar li {
     display: inline;
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li:last-child {
+.nav-bar li:last-child {
     border-right: none;
 }
 
-li a {
+.nav-bar li a {
     display: block;
     color: black;
     text-align: center;
@@ -58,9 +56,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.nav-bar li a:hover {
     background-color: red;
 }
+
 .profile {
     display: inline-block;
     width: 150px;
@@ -71,10 +70,11 @@ li a:hover {
 
 }
 
-.about-me {
+.about-me,
+ {
     max-width: 650px;
-    border: 1px solid black;
-    background-color: white;
+    border: 1px #dddddd;
+    background-color: #ffffff;
     float:left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -84,7 +84,7 @@ li a:hover {
 h2 {
     border-bottom: solid #dddddd;
     color: #4aaaa5;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 auto;
     width: 80%;
 }
@@ -106,20 +106,93 @@ p {
 .social {
     float: right;
     max-width: 270px;
-    border: 1px solid black;
-    background-color: white;
-    margin-right: 25px;
+    border: 1px #dddddd;
+    background-color: #ffffff;
+    margin-right: 55px;
     margin-top: 20px;
 }
 
 .footer {
     text-align: center;
-    background-color: black;
+    font-size: 10px;
+    background-color: #666666;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
     clear: both;
+    border-top-width: 10px;
+    border-style: solid;
+    border-top-color: #4aaaa5;
 }
 
 .social img {
     width: 50px;
     padding: 5px;
+}
+
+/*Styling for Contact Page*/
+
+/*.about-me reference,
+ {
+    max-width: 650px;
+    border: 1px #dddddd;
+    background-color: #ffffff;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+*/
+.contact-me {
+    max-width: 650px;
+    border: 1px #dddddd;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.contact-me h2 {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 40px;
+
+}
+
+input, textarea {
+    width: 500px;
+    background:#efefef;
+    border: 1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+input#submit {
+    background-color: #4aaaa5;
+    width: 100px;
+    display: block;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+textarea {
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #efefef;
 }
