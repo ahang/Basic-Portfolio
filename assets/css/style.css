@@ -45,7 +45,6 @@ h1 {
     padding: 0;
     overflow: hidden;
     background-color: white;
-
 }
 
 .nav-bar li {
@@ -92,6 +91,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: solid #dddddd;
     color: #4aaaa5;
     /*text-align: center;*/
@@ -116,9 +116,9 @@ p {
 .social {
     float: right;
     max-width: 270px;
-    border: 1px #dddddd;
+    border: 1px solid #dddddd;
     background-color: #ffffff;
-    margin-right: 55px;
+    margin-right: 20px;
     margin-top: 20px;
 }
 
@@ -141,22 +141,11 @@ p {
 
 .social img {
     width: 50px;
-    padding: 5px;
+    margin: 10px;
 }
 
 /*Styling for Contact Page*/
 
-/*.about-me reference,
- {
-    max-width: 650px;
-    border: 1px #dddddd;
-    background-color: #ffffff;
-    float:left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-*/
 .contact-me {
     max-width: 650px;
     border: 1px #dddddd;
@@ -228,3 +217,57 @@ textarea {
 }
 
 /*Styling for Portfolio*/
+
+/*.about-me reference,
+ {
+    max-width: 650px;
+    border: 1px #dddddd;
+    background-color: #ffffff;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+*/
+.portfolio {
+    max-width: 650px;
+    border: 1px #dddddd;
+    background-color: #ffffff;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/*Source: https://www.youtube.com/watch?v=J6YmFApjX1w*/
+
+article {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+article h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 3%;
+}
+
+article img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
