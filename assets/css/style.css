@@ -143,6 +143,7 @@ p {
 .social img {
     width: 50px;
     margin: 10px;
+    border: 4px solid #cccccc;
 }
 
 /*Styling for Contact Page*/
@@ -207,14 +208,13 @@ input#submit {
     #submit:hover {
         opacity:.9;
     }
-s
+
 input:focus, textarea:focus {
     border:1px solid #97d6eb;
 }
 
 textarea {
     height:213px;
-    background:url(images/textarea-bg.jpg) right no-repeat #efefef;
 }
 
 /*Styling for Portfolio*/
@@ -274,4 +274,5 @@ article img {
     height: 100%;
     width: auto;
     position: absolute;
+    border: 2px solid #cccccc;
 }
