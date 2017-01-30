@@ -11,7 +11,7 @@ html, body {
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-color: #777777;
+    color: #777777;
     max-width: 960px;
     background-image: url(../images/bg.png);
 }
@@ -83,7 +83,7 @@ h1 {
 .about-me
  {
     max-width: 650px;
-    border: 1px 0px solid #dddddd;
+    border: 1px solid #dddddd;
     background-color: #ffffff;
     float:left;
     margin-top: 20px;
@@ -150,7 +150,7 @@ p {
 
 .contact-me {
     max-width: 650px;
-    border: 1px #dddddd;
+    border: 1px solid #dddddd;
     background-color: #ffffff;
     float: left;
     margin-top: 20px;
@@ -232,7 +232,7 @@ textarea {
 */
 .portfolio {
     max-width: 650px;
-    border: 1px #dddddd;
+    border: 1px solid #dddddd;
     background-color: #ffffff;
     float:left;
     margin-top: 20px;
@@ -241,6 +241,8 @@ textarea {
 }
 
 .portfolio h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 
