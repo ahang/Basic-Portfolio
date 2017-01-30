@@ -239,6 +239,10 @@ textarea {
     margin-left: 20px;
 }
 
+.portfolio h2 {
+
+}
+
 /*Source: https://www.youtube.com/watch?v=J6YmFApjX1w*/
 
 article {
@@ -248,7 +252,7 @@ article {
     float: left;
     margin-top: 25px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 80px;
     overflow: hidden;
     position: relative;
 }
@@ -258,7 +262,6 @@ article h3 {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    margin: 0;
     position: absolute;
     left: 0;
     bottom: 0;
