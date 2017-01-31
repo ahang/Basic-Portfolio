@@ -137,7 +137,8 @@ p {
 
 .footer {
     text-align: center;
-    
+    display:block;
+    position: fixed;
     background-color: #666666;
     color: white;
     padding-top: 20px;
@@ -146,6 +147,10 @@ p {
     border-style: solid;
     border-top-color: #4aaaa5;
     margin: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+
 }
 
 .footer, .push {
