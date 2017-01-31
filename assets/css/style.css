@@ -13,6 +13,8 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../images/bg.png);
 }
 
