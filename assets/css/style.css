@@ -13,7 +13,7 @@ html, body {
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    
+
     margin-left: auto;
     margin-right: auto;
     background-image: url(../images/bg.png);
@@ -22,13 +22,14 @@ body {
 .header {
     background-color: #ffffff;
     border-bottom: solid #dddddd;
+    width: 100%;
 }
 
 .logo {
     display: inline-block;
     background-color: #4aaaa5;
-    width: 20%;
-    margin-left: 10%;
+    width: 15%;
+    margin-left: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -39,11 +40,12 @@ body {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
+    font-weight: bold;
 }
 
 .nav-bar {
     display: inline-block;
-    margin-left: 40%;
+    margin-left: 20.2%;
     vertical-align: middle;
 }
 
@@ -93,7 +95,7 @@ h1 {
     max-width: 650px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    float:left;
+    float: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -108,6 +110,8 @@ h2 {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .about-me h2 {
@@ -120,10 +124,8 @@ h2 {
 }
 
 p {
-    padding: 15px 15px 10px 5px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 15px;
+    padding: 15px 15px 10px 15px;
+    line-height: 2;
 }
 
 .social {
@@ -131,8 +133,13 @@ p {
     max-width: 270px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    margin-right: 20px;
     margin-top: 20px;
+}
+
+.social h2 {
+    font-size: 25px;
+    border-bottom: 3px solid #dddddd;
+    margin-left: 20px;
 }
 
 .footer {
@@ -141,26 +148,22 @@ p {
     position: fixed;
     background-color: #666666;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-width: 10px 0px 0px 0px;
+    border-top-width: 10px;
     border-style: solid;
     border-top-color: #4aaaa5;
-    margin: 0px;
     bottom: 0px;
-    left: 0px;
     width: 100%;
-
 }
 
-.footer, .push {
-    height: 4em;
+.footer h4 {
+    padding: 20px;
+
 }
 
 .social img {
     width: 50px;
     margin: 10px;
-    border: 2px solid #4aaaa5;
+    /*border: 2px solid #4aaaa5;*/
 }
 
 /*Styling for Contact Page*/
@@ -171,19 +174,32 @@ p {
     background-color: #ffffff;
     float: left;
     margin-top: 20px;
-    
     margin-bottom: 20px;
+    padding: 10px 20px 20px 20px;
 
 }
-
 .contact-me h2 {
     margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    /* width: 80%; */
 }
 
+
 /*Styling for contact me page
-Source: http://tangledindesign.com/how-to-create-a
--contact-form-using-html5-css3 -and-php/
+Source: http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
 */
+form label {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 label {
     display: block;
     margin-top: 20px;
@@ -193,9 +209,8 @@ label {
 form {
     margin: 0 auto;
     width: 100%;
-    padding-left: 60px;
-    padding-right: 40px;
-
+/*    padding-left: 60px;
+    padding-right: 40px;*/
 }
 
 input, textarea {
@@ -204,7 +219,7 @@ input, textarea {
     border: 1px solid #dedede;
     padding:10px;
     margin-top:3px;
-    font-size:0.9em;
+    /*font-size:0.9em;*/
     color:#3a3a3a;
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
@@ -219,7 +234,7 @@ input#submit {
     cursor:pointer;
     display: block;
     margin-top: 10px;
-    margin-bottom: 10px;*/
+    margin-bottom: 10px;
 }
 
     #submit:hover {
@@ -254,7 +269,7 @@ textarea {
     float:left;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
 
 .portfolio h2 {
@@ -287,6 +302,7 @@ article h3 {
     bottom: 0;
     width: 100%;
     padding: 3%;
+    margin-bottom: 10px;
 }
 
 article img {
